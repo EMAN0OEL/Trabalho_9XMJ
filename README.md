@@ -47,7 +47,7 @@ Contornar a verificação de usuário e senha (seja descobrindo as credenciais c
 
 ## 📤 Entrega
 
-Envie para o professor até **[data limite]**:
+Envie para o professor até **HOJE**:
 
 - Um **relatório** descrevendo, passo a passo, como você chegou à solução (ferramentas usadas, análise estática/dinâmica, raciocínio)
 - Prints ou gravação mostrando o acesso ao menu principal
