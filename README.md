@@ -7,10 +7,9 @@
 
 ## 🚦 Antes de começar
 
-1. **Isole o ambiente**: rode o `trabalho_escola_9xmj.exe` apenas dentro de uma máquina virtual.
-2. **Desative a internet/rede** dessa VM antes de executar o arquivo pela primeira vez.
-3. **Tire um snapshot** da VM limpa, assim você pode restaurar o estado sempre que precisar testar algo novo.
-4. Só então comece a **planejar sua estratégia de ataque**: o que observar primeiro, quais ferramentas usar, como documentar cada descoberta.
+1. **Isole o ambiente**: rode o `trabalho_escola_9xmj.exe` apenas em ambiente controlado.
+2. **Desative a internet/rede** desse app antes de executar o arquivo pela primeira vez.
+3. Só então comece a **planejar sua estratégia de ataque**: o que observar primeiro, quais ferramentas usar, como documentar cada descoberta.
 
 ## 📌 Sobre o desafio
 
@@ -27,7 +26,7 @@ Contornar a verificação de usuário e senha (seja descobrindo as credenciais c
 ## ⚙️ Importante sobre o funcionamento do app
 
 - Todo o processo de autenticação acontece **localmente**, dentro do próprio executável.
-- O aplicativo **não faz nenhuma requisição de rede** — não se conecta a servidores, bancos de dados externos ou internet.
+- O aplicativo **não faz nenhuma requisição de rede** — não se conecta a servidores, bancos de dados externos ou internet todas requisicoes no app sao falsas.
 - Isso significa que toda a lógica necessária para resolver o desafio pode ser encontrada **dentro do próprio binário**, usando engenharia reversa estática e dinâmica.
 
 ## 🛠️ Ferramentas sugeridas
